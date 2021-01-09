@@ -1,0 +1,16 @@
+server:
+  port: 9001
+  servlet:
+    session:
+      timeout: 10
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
